@@ -2,6 +2,89 @@
 <head>
 <style>
 /* Write your code here */
+* { 
+	margin: 0;
+ }
+
+ body {
+ 	background-image: url('http://backgroundlabs.com/wp-content/uploads/2013/04/subtle-mosaic-pattern.png');
+ }
+
+.container {
+	width: 50%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: white;
+}
+
+a {
+	text-align: center;
+	text-decoration: none;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav a {
+	display: block;
+	width: 25%;
+	font-size: 24px;
+	color: black;
+	background-color: rgb(211, 211, 211);
+}
+
+.logo_part {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.search {
+	margin: 0 auto;
+}
+
+.main_section {
+	margin: 15px;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	border : 1px solid red;
+	border-radius: 5px;
+	text-align: center;
+	margin: 15px;
+}
+
+.card a {
+	font-size: 18px;
+	color: white;
+	background-color: rgb(85, 153, 255);
+
+}
+
+.card .price {
+	font-weight: bold;
+	font-size: 32px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 25px;
+	margin-top: auto;
+}
 </style>
 </head>
 <body>
@@ -80,7 +163,7 @@
       <div class="price">
         50.000$
       </div>
-    </div>
+    </div>    
   </div>
 </section>
 <footer>
